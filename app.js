@@ -67,23 +67,23 @@ function showData(data){
          weather.innerHTML=`${data.weather[0].main}`
 
          if(data.weather[0].main==='Clouds'){
-            document.body.style.backgroundImage="url('img/cloud.jpg')";
+            document.body.style.backgroundImage="url('cloud.jpg')";
          }else if(data.weather[0].main==='Sunny'){
-             document.body.style.backgroundImage="url('img/sunny.jpg')";
+             document.body.style.backgroundImage="url('sunny.jpg')";
             }else if(data.weather[0].main==='Clear'){
-            document.body.style.backgroundImage="url('img/clear2.jpg')";
+            document.body.style.backgroundImage="url('clear2.jpg')";
         }else if(data.weather[0].main==='Rain'){
-             document.body.style.backgroundImage="url('img/rain.jpg')";
+             document.body.style.backgroundImage="url('rain.jpg')";
             }else if(data.weather[0].main==='Snow'){
-             document.body.style.backgroundImage="url('img/snow.jpg')";
+             document.body.style.backgroundImage="url('snow.jpg')";
             }else if(data.weather[0].main==='Mist'){
-                document.body.style.backgroundImage="url('img/mist.jpg')";
+                document.body.style.backgroundImage="url('mist.jpg')";
             }else if(data.weather[0].main==='Drizzle'){
-                document.body.style.backgroundImage="url('img/drizzle.jpg')";
+                document.body.style.backgroundImage="url('drizzle.jpg')";
             }else if(data.weather[0].main==='Thunderstorm'){
-             document.body.style.backgroundImage="url('img/Thunderstorm.jpg')";
+             document.body.style.backgroundImage="url('Thunderstorm.jpg')";
             }else if(data.weather[0].main==='Haze'){
-             document.body.style.backgroundImage="url('img/haze.jpg')";
+             document.body.style.backgroundImage="url('haze.jpg')";
 
          }
 
