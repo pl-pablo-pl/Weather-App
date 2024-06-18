@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+	
+
+    <div class="app-wrap">
+        <header>
+         <div class="wrapper">
+           <div class="search-input">
+             <a href="" target="_blank" hidden></a>
+             <input type="text"  class="search-box" placeholder="Search for a city..." />
+                 <div class="autocom-box">
+                   <!-- here list are inserted from javascript -->
+                 </div>
+                 
+        <div class="icon"><i class="fas fa-search"></i></div>
+
+      </div>
+      
+    </div>
+
+  </header>
+         
+        <main>
+          <section class="location">
+            <!-- <div class="loader"> -->
+              <div class="city">Northampton, GB</div>
+
+            <!-- </div> -->
+            <div class="date">Thursday 10 January 2024</div>
+          </section>
+          <div class="current">
+            <div class="temp">15<span>°c</span></div>
+            <div class="weather">Sunny</div>
+            <div class="hi-low">13°c / 16°c</div>
+          </div>
+        </main>
+      </div>
+
+
+    
+      <script src="app.js"></script>
+</body>
+</html>
